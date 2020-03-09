@@ -68,8 +68,9 @@ def check_win():
         print('         O wins!!!')
         return 1
     ele1 = []
-    for i in range(len(game)-1,-1,-1):
-        ele1.append(game[i][i])
+    ele1.append(game[2][0])
+    ele1.append(game[1][1])
+    ele1.append(game[2][0])
     if ele.count(1)==3:
         print()
         print()
