@@ -167,7 +167,7 @@ def start():
         print('See ya!')
 
 """ This is the way it goes on"""
-
+if __name__ == "__main__":
 print('                        Welcome to _TIC_TAC_TOE_\n\n')
 print_board()
 print('\n\n')
